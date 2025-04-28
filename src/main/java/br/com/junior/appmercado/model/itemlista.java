@@ -23,7 +23,7 @@ public class itemlista {
     private double quantidade;
 
     @Column(name = "preco_total")
-    private double precototal;
+    private double precoTotal;
 
     @Column(name = "concluido")
     private Integer concluido;
@@ -54,11 +54,11 @@ public class itemlista {
     }
 
     public double getPrecototal() {
-        return precototal;
+        return precoTotal;
     }
 
-    public void setPrecototal(double precototal) {
-        this.precototal = precototal;
+    public void setPrecototal(double precoTotal) {
+        this.precoTotal = precoTotal;
     }
 
     public Integer getConcluido() {
